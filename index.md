@@ -32,7 +32,9 @@ Not all of these phases may be taken to completion, but they represent the appro
           - How fast does an erg flywheel spin?
             
               - From the WPI paper: peaks at like 800 RPM (not clear if
-                this is absolute max though)
+                this is absolute max though). RPM ranged from 395 to 780 and angular velocity
+            ranged from 41.36 to 81.68 radians per second
+
               - Use an Optical tachometer and arduino to datalog it
                 (maybe there’s a better way and the data can be
                 crowdsourced)
@@ -79,7 +81,7 @@ Not all of these phases may be taken to completion, but they represent the appro
     resistance?
     
       - Constant force or no?
-
+  - what rpm/torque value is best for power generation?
   - How does the concept2 “watts” measurement compare to actual power
     generation? Is it heat watts vs energy watts?
 
@@ -93,6 +95,8 @@ Not all of these phases may be taken to completion, but they represent the appro
     
       - I think this depends on the motor as we’d need to match it’s
         RPM/torque for optimal output
+  
+  - Is it possible/are there devices that exist to control the power draw on a motor digitally? (i.e. with an arduino?)
 
 ### Phase 2 – Basic Experiments
 
@@ -133,7 +137,8 @@ Not all of these phases may be taken to completion, but they represent the appro
       - Cover the fins?
 
   - How best to connect the motor to the flywheel?
-
+    - put gear-like teeth or some other grippy surface (like a rubber-wheeled LEGO wheel for testing purposes) around the circumference of the flywheel (either facing outwards like a regular/bike gear, or to with the teeth facing the face of the flywheel) so that there is a gear-like relationship between the flywheel and the motor shaft
+    - put a belt around the edge of the flywheel and use that to drive a motor located elsewhere
   - Can we use the concept2 SDK for logging data? (watts, s/m, drag
     factor, flywheel RPM, etc?)
 
@@ -182,109 +187,103 @@ The goal is to do this in a free and open way so that anyone who is sufficiently
   - public Documentation (this repo) for the gory details
   - 
 
-# Parts Needed
+# Materials
+## Tools
 
-  - Parts for homemade optical tachometer
-    
+- optical tachometer
+    - Homemadeparts
       - IR emitter and receiver LED
       - 10k pot
       - black athletic tape
+    - Probably easier to just buy one and/or get someone who has one to collect the data
 
-  - misc
-    
+
+## Parts
+  - Stuff I already have lying around
+      - Arduino UNO
       - 2.5mm audio jack to capture info from C2 provided cable/power
         generator
+      - some salvaged and unused 18650's from old laptop batteries
 
-  - if homemade generator (WPI did this)
-    
-      - magnets x lots
-    
-      - copper wire x lots
-    
-      - some disks to mount to the flywheel axle
-    
-      - oh dear oh god oh fuck how will it be balanced
-        
-          - measuring
-    
-      - nope
 
-  - scrap motor
-    
-      - 90v treadmill motor?
-    
-      - Tacx bikes
-        <https://www.ebay.com/itm/Tacx-Cycleforce-T1670-Bike-Trainer/324395584540?hash=item4b877bcc1c:g:vv8AAOSwPktfws-D>
-    
-      - ebike motors
-    
-      - what rpm/torque value is best for power generation?
-    
-      - What RPM/torque does erg output?
-        
-          - Form the WPI paper max torque of an erg is prob 15 N-M  
-            RPM range results from 395 to 780 and angular velocity
-            ranges from 41.36 to 81.68 radians per second
+# Research, Ideas and Brainstorming
 
-  - belt/chain/gears/some way to connect the motor to the flywheel
+## Parts and Sourcing
+### Monitoring Devices
 
-  - inverter
+- https://www.thegreenmicrogym.com/2013/09/05/ensupra/
+- Kill-A-Watt or similar watt meter for the wall once we get to the stace of putting power into a house
 
-  - watt meter for the wall
+### Energy storage
 
-  - battery charge controller?
+- ultracapacitors?
+  - https://www.thegreenmicrogym.com/2013/07/08/diy-off-the-grid-with-the-upcycle-eco-charger/
+  - https://www.thegreenmicrogym.com/2015/07/13/the-history-of-the-upcycle-ecocharger-how-it-came-to-be/
+- Batteries
+  - 18650's?
+  - battery charge controller/s
+  - safety shutoffs/containment for anything that can explode
 
-  - Power conditioning system?
 
-# Research
+### Energy Conversion
+#### Inverter
+ - Power conditioning system (probably built into the inverter???)
 
-<https://www.thegreenmicrogym.com/product/upcycle-ecocharger-diy-kit-250-grid-tied/>
+#### Rectifiers
+   - ssdlkjele SQL 40V 1000A [seems to be the one from the kit](https://youtu.be/rM7MSq_2Bp4?t=24)
+   - Some ebay listings at the time of research: [cheap from china](https://www.ebay.com/itm/331245533043), [ships from US](https://www.ebay.com/itm/272885248944).
+   - need a better source for these (digikey or similar, although I havent checked)
 
-“Provides resistance as RPM’s go up” – probably not what I want.
+### Motors: 
+- [the motor in the kit](https://www.ebikekit.com/blogs/news/upcycle-eco-charger-a-powerful-bicycle-generator) is an ebike motor
+- [Guide to ebikeKit Motors](https://www.ebikekit.com/blogs/news/the-ultimate-guide-to-e-bikekit-hub-motors)
 
-[](https://youtu.be/rM7MSq_2Bp4?t=24)
+- [What types of motors work best as generators](https://www.youtube.com/watch?v=cJ_vDA7xsGs)
+  - Despite the poor results of the BLDC motor in the video, it seems to me like this was due to the fact that it had a gearbox and wasnt spinning optimally
+- [information about 3 phase AC using BLDC motors](https://www.youtube.com/watch?v=quABfe4Ev3s)
 
-random other ideas:
+#### Option 1: homemade (WPI did this)
+  - magnets x lots
+  - copper wire x lots
+  - some disks to mount to the flywheel axle
+  - oh dear oh god how to keep it balanced
+      - measuring. lots of measuring
+  - nope
+#### Option 2: Purchace new/used
+  - BLDC
+  - treadmill motors (would 90v work? seen that number somewhere)
+  - ebike motors
 
-<https://www.c2forum.com/viewtopic.php?t=5334>
+### Option 2.5: use something that exists
+  - Tacx bikes
+    (https://www.ebay.com/itm/Tacx-Cycleforce-T1670-Bike-Trainer/324395584540?hash=item4b877bcc1c:g:vv8AAOSwPktfws-D)
 
-Rectifiers: ssdlkjele SQL 40V 1000A
 
-<https://www.ebay.com/itm/331245533043> (cheap from china)
 
-<https://www.ebay.com/itm/272885248944> (ships from US)
+## Physics 
+ - [efficiency + flywheels](https://www.resilience.org/stories/2011-06-01/bike-powered-electricity-generators-are-not-sustainable/)
 
-for the rectifier in the kit: <https://youtu.be/rM7MSq_2Bp4?t=24>
 
-World records for erg power generaton
 
-<https://phys.org/news/2012-07-world-rowers-electricity-power-house.html>
+## Planning
+### Ideas for Ways to connect motor and flywheel
+  - belt
+  - chain
+  - gears
+  - fabricate a new flywheel that mounts the same way as the stock one?
 
-Monitoring:
 
-<https://www.thegreenmicrogym.com/2013/09/05/ensupra/>
 
-power storage:
+## Misc
 
-ultracapacitor???
-<https://www.thegreenmicrogym.com/2013/07/08/diy-off-the-grid-with-the-upcycle-eco-charger/>
+- [old C2 forum posts of people taling about similar ideas](https://www.c2forum.com/viewtopic.php?t=5334)
 
-<https://www.thegreenmicrogym.com/2015/07/13/the-history-of-the-upcycle-ecocharger-how-it-came-to-be/>
+- [Green Microgym UpCycle EcoCharger Kit](https://www.thegreenmicrogym.com/product/upcycle-ecocharger-diy-kit-250-grid-tied/)
+  - “Provides resistance as RPM’s go up” – probably not what I want.
+  - [how the kit works video](https://youtu.be/rM7MSq_2Bp4?t=24)
+  - based on the 3 wires from the motor, its almost certainly a BLDC
 
-efficiency + flywheels
 
-<https://www.resilience.org/stories/2011-06-01/bike-powered-electricity-generators-are-not-sustainable/>
+### World records for erg power generaton
 
-Motors:  
-the motor in the kit is an ebike motor:
-<https://www.ebikekit.com/blogs/news/upcycle-eco-charger-a-powerful-bicycle-generator>
-
-<https://www.ebikekit.com/blogs/news/the-ultimate-guide-to-e-bikekit-hub-motors>
-
-best motor type: <https://www.youtube.com/watch?v=cJ_vDA7xsGs>
-
-3 phase AC: <https://www.youtube.com/watch?v=quABfe4Ev3s>
-
-  
-based on the 3 wires from the motor, its almost certainly a BLDC
-
+ - https://phys.org/news/2012-07-world-rowers-electricity-power-house.html
