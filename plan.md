@@ -178,13 +178,6 @@ Not all of these phases may be taken to completion, but they represent the appro
 	house? (this is kinda the ultimate vision)
 	- Convert a real bike? (greenmicrogym already did this)
 
-# Process
-
-The goal is to do this in a free and open way so that anyone who is sufficiently interested can pick this up where I left off. The idea for this came from [Relativity](https://github.com/relativty/Relativty), the open-source Build-it-yourself VR headset and My hope is that I can at least get this project to the same place, evenif it never reaches commercial development
-
-- ideally videotape experiments or at least the process for setting one up so others can replicate it
-- public Documentation (this repo) for the gory details
-- 
 
 # Materials
 ## Tools
