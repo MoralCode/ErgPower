@@ -51,25 +51,26 @@ Not all of these phases may be taken to completion, but they represent the appro
 			
 			- Is it a standard connection?
 
-- How much total energy is being put into the erg from the
-	rower/handle? (this is useful for calculating the efficiency of the
-	whole system)
-	
-	- How much is going into the elastic versus the flywheel?
+- Rower
+	- How much total energy is being put into the erg from the rower/handle? (this is useful for calculating the efficiency of thewhole system)
+		
+		- How much is going into the elastic versus the flywheel?
+	- What speed is the handle moving at?
 
-- How can we collect this data while the flywheel cover is closed
-	while allowing the drag factor to be changed?
+- How can we collect this data while the flywheel cover is closed while allowing the side dial for drag to be changed?
 	
 	- Possibly drill a small hole in the mesh for passing cables?
+    	- a single twisted pair of ethernet cable or similar should be able to fit through the holes in the flywheel, if not just one cable. should be enough to get the relevant data out
 
-- How much power/information does the built-in cable/motor thing
-	provide?
+
+- How much power/information does the built-in cable/motor thing provide?
 	
-	- Not much if at all, and it probably cant be used as the existing
-		monitor needs it
+	- Not much power at all, and it probably cant be used as the existing monitor needs it
+	- informatin wise it may be better to use the [Concept2 SDK](https://www.concept2.com/service/software/software-development-kit) as the monitor does a lot of the processing of that signal for us
 
-- come up with a set testing workout (step workout?) to test how it
-	works at various rates and powers
+- come up with a set testing workout (step workout?) to test how it works at various rates and powers
+- may also be nice to have a way to consistently pull the handle at certain speeds/powers to test the resistance consistently
+  - this might be able to be accomplished by droping a wight that's tied around a pulley and using gravity to pull the handle sideways in a repeatable manner
 
 - is there an effective way to crowdsource data from people who are
 	interested in this and have the tools to do so (so I dont have to
@@ -97,6 +98,16 @@ Not all of these phases may be taken to completion, but they represent the appro
 		RPM/torque for optimal output
 
 - Is it possible/are there devices that exist to control the power draw on a motor digitally? (i.e. with an arduino?)
+  
+- Is there a version of Concept2's SDK that suports linux?
+  - how about third party implementations
+  - can it really be anything platform specific that cant be recompiled or something? like as far as i can tell it should just be interfacing with the monitors via bluetooth/serial
+
+- What has Concept2 changed year to year hardware wise on the ergs? (specifically Re: flywheel) anyhing major that affects this project?
+  - i suspect that the device that measures the flywheel's speed/sips power for the monitor changed from the PM2 to the PM3 ergs as i believe thats where they introduced the idea of the flywheel powering the erg while its in use.
+    - This seems to be supported by higher numbers in/between experiments 1 and 2 but not 100% sure as those experiments were poorly conducted and not super on-topic
+- What are the units on the force curve?
+  - [Nobody](https://www.c2forum.com/viewtopic.php?f=15&t=190496) [seems](https://www.c2forum.com/viewtopic.php?f=15&t=185074) to know
 
 ### Phase 2 – Basic Experiments
 
@@ -150,6 +161,14 @@ Not all of these phases may be taken to completion, but they represent the appro
 	ergs? (i.e. as a replacement flywleel/replacement flywheel casing
 	that the user can swap out)
 - How cheaply can this all be done?
+- What regulations will we need to comply with in order to sell this?
+  - possibly EM Interference, UL Listing, others?
+
+### Phase 5.5 – Operations and Support
+
+- What will be neded to support this product?
+  - manual? install guide?
+- What would operations look like?
 
 ### Phase 6 – Future Complimentary Products
 
@@ -160,7 +179,7 @@ Not all of these phases may be taken to completion, but they represent the appro
 
 # Process
 
-The goal is to do this in a free and open way so that anyone who is sufficiently interested can pick this up where I left off.
+The goal is to do this in a free and open way so that anyone who is sufficiently interested can pick this up where I left off. The idea for this came from [Relativity](https://github.com/relativty/Relativty), the open-source Build-it-yourself VR headset and My hope is that I can at least get this project to the same place, evenif it never reaches commercial development
 
 - ideally videotape experiments or at least the process for setting one up so others can replicate it
 - public Documentation (this repo) for the gory details
