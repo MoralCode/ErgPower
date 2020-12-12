@@ -5,8 +5,10 @@ layout: default
 <h1>Project Log</h1>
 
 <h2>Experiments</h2>
+<!-- Chronological order of experiments run/results of various tests -->
+{% assign experiments = site.posts | where:"type","experiment" | reverse %}
 <ul>
-	{% for post in site.posts %}
+	{% for post in experiments %}
 	<li>
 		<a href="{{ post.url }}">{{ post.title }}</a>
 	</li>
