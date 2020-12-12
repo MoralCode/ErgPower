@@ -4,15 +4,11 @@ layout: default
 
 # Overall Project Plan
 
-## Project Goal
-
-- Develop a proof of concept for replacing the flywheel of an Erg flywheel (fundamentally just a device to sink excess energy into air resistance) with a generator as a method of producing green energy that can be used for powering small projects, charging devices, or sending back into the grid to make a small impact on your home's power bill
-
 ## Requirements (not specifications)
 - To Be Written 
 
 ## Approximate Project Phases
-Not all of these phases may be taken to completion, but they represent the approximate order and ultimate vision for the project and help organize outstanding questions such that they can be tackled in a reasonable order.
+Not all of these phases may be taken to completion, but they represent the approximate trajectory for the project and serve to help organize outstanding questions such that they can be tackled in a reasonable order.
 
 ### Phase 0 – Pretotype
 
@@ -177,24 +173,6 @@ Not all of these phases may be taken to completion, but they represent the appro
 	used to augment the power from the erg to add more ways to power a
 	house? (this is kinda the ultimate vision)
 	- Convert a real bike? (greenmicrogym already did this)
-
-
-# Materials
-## Tools
-
-- optical tachometer
-	- Homemadeparts
-	- IR emitter and receiver LED
-	- 10k pot
-	- black athletic tape
-	- Probably easier to just buy one and/or get someone who has one to collect the data
-
-
-## Parts
-- Stuff I already have lying around
-	- Arduino UNO
-	- 2.5mm audio jack to capture info from C2 provided cable/power generator
-	- some salvaged and unused 18650's from old laptop batteries
 
 
 # Research, Ideas and Brainstorming
