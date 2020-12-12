@@ -14,3 +14,14 @@ layout: default
 	</li>
 	{% endfor %}
 </ol>
+
+<h2>Meetings</h2>
+<!-- reverse Chronological order listing of meeting notes -->
+{% assign meetings = site.posts | where:"type","meeting" %}
+<ul>
+	{% for post in meetings %}
+	<li>
+		<a href="{{ post.url }}">{{ post.title }}</a>
+	</li>
+	{% endfor %}
+</ul>
