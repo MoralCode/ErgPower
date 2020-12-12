@@ -10,7 +10,7 @@ layout: default
 <ol>
 	{% for post in experiments %}
 	<li>
-		<a href="{{ post.url }}">{{ post.title }}</a>
+		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 	</li>
 	{% endfor %}
 </ol>
@@ -21,7 +21,7 @@ layout: default
 <ul>
 	{% for post in meetings %}
 	<li>
-		<a href="{{ post.url }}">{{ post.title }}</a>
+		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 	</li>
 	{% endfor %}
 </ul>
