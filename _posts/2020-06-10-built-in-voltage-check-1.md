@@ -1,4 +1,5 @@
 ---
+layout: default
 type: experiment
 ---
 - tried measuring voltage from model C wires with multimeter, nothing really happened
