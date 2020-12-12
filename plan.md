@@ -106,6 +106,7 @@ Not all of these phases may be taken to completion, but they represent the appro
 - What has Concept2 changed year to year hardware wise on the ergs? (specifically Re: flywheel) anyhing major that affects this project?
   - i suspect that the device that measures the flywheel's speed/sips power for the monitor changed from the PM2 to the PM3 ergs as i believe thats where they introduced the idea of the flywheel powering the erg while its in use.
     - This seems to be supported by higher numbers in/between experiments 1 and 2 but not 100% sure as those experiments were poorly conducted and not super on-topic
+  - would be nice to get datasheets for these parts
 - What are the units on the force curve?
   - [Nobody](https://www.c2forum.com/viewtopic.php?f=15&t=190496) [seems](https://www.c2forum.com/viewtopic.php?f=15&t=185074) to know
 
