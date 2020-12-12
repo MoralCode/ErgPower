@@ -1,3 +1,6 @@
+---
+type: experiment
+---
 - wired two LED’s (through-hole 5mm pretty standard random green LED’s), each in a different direction between the tip and the ground of the 2.5mm audio jack
 	- model C did nothing visibly. Possibly a confirmation of the super low (sub .15v) voltages seen from yesterdays tests.
 	- Model D saw one of the LED’s (the one with the flat side/cathode wired to the tip of the jack) flash at a rate that seemed consistent with flywheel speed. 

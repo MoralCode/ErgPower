@@ -1,4 +1,5 @@
 ---
+type: experiment
 ---
 - tried measuring voltage from model C wires with multimeter, nothing really happened
 - wired + and gnd leads of 2.5mm audio jack directly to arduino to log the values to serial console (with IRSensorRead.ino) and plot them in python
