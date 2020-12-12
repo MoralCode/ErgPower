@@ -1,5 +1,4 @@
 ---
-layout: default
 type: experiment
 ---
 # Experiment 2
