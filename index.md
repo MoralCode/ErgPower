@@ -36,3 +36,19 @@ This project is being conducted in such a radically free and open way for a few 
 
 
 The idea for conducting the project this way was partially inspired by [Relativity](https://github.com/relativty/Relativty), the open-source Build-it-yourself VR headset.
+
+## Where'd the logo come from?
+
+Honestly I pretty much just threw it together in [Inkscape](https://inkscape.org/) because the [website template/theme that I am using](https://reverie-jekyll.netlify.app/about/) had a space for one. I'm a Computing student, not a Graphic Designer so if you think you can do better, go for it! 
+
+The current logo was inspired by the following Creative comons images:
+- [Fireman_ergometer_by_mimooh.svg](https://commons.wikimedia.org/wiki/File:Fireman_ergometer_by_mimooh.svg) Mimooh, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons
+- [Crossing Road Grunge Sign - Heart-Stricken](http://freestock.ca/signs_symbols_g43-crossing_road_grunge_sign__heartstricken_p2001.html) CC BY 3.0 Nicolas Raymond 
+ 
+
+## Contact
+If you are interested in this project and feel like reaching out, my email address is on [my website](https://www.adriancedwards.com). I also plan to set up some kind of communication platform in the future if enough people are interested.
+
+## Credits
+This project would not be possible without the help and support of the following people:
+- Ben Clements 
