@@ -28,7 +28,7 @@ There seem to be two major ideas on this topic:
 	- do electronic speed controllers work if fed 3 phase power as input?
 	- If we did this we would need to hook both the thing that's going to be using the power, which would mean the ESC would just be directly powering the thing that we are trying to power
 
-![Diagram illustrating the problem of connecting both ESC and load to the generator at once](./ESCproblem.png)
+![Diagram illustrating the problem of connecting both ESC and load to the generator at once](../files/meetings.ESCproblem.png)
 
 
 2. My original plan of applying resistance by controlling current draw.
