@@ -13,7 +13,7 @@ type: experiment
 
 
 **Test 2:** run the `strokelog.py` file while connected to an erg and start a workout.
-**Result 2:** it seems to be saving the data for each stroke in memory and writing to a file at the end, but otherwise, it looks like there is a decent amount of usable data. See [workout.csv](/files/experiments/4/workout.csv) for the raw data and [workout.ods](/files/experiments/4/workout.ods) for the data with a the first two strokes graphed. Upon further thinking it seems as though this is to overcome the 16-datapoint limit on the data that can be in each response from the erg. so by requesting data multiple times thoughout the stroke, the full force graph can be compiled and then returned
+**Result 2:** it seems to be saving the data for each stroke in memory and writing to a file at the end, but otherwise, it looks like there is a decent amount of usable data. See [workout.csv](../files/experiments/4/workout.csv) for the raw data and [workout.ods](../files/experiments/4/workout.ods) for the data with a the first two strokes graphed. Upon further thinking it seems as though this is to overcome the 16-datapoint limit on the data that can be in each response from the erg. so by requesting data multiple times thoughout the stroke, the full force graph can be compiled and then returned
 
 **Future Improvements:** 
 - unfortunately, I did not think to capture photo/video of the force curves on the monitor for comparison
@@ -26,7 +26,7 @@ type: experiment
 This was another test to see if it was possible to live plot the data (in this experiment it was just pace data) during a workout while rewriting my own scripts to be more extensible, yet still following the idea of the two python scripts from the first trials.
 
 **Results:**
-The raw data is in [4adata.csv](/files/experiments/4a/4adata.csv). here's a picture as saved from the python ploting library:
+The raw data is in [4adata.csv](../files/experiments/4a/4adata.csv). here's a picture as saved from the python ploting library:
 
 ![picture of the pace graph](/files/experiments/4a/Figure_1.png)
 
