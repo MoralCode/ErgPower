@@ -40,9 +40,9 @@ The raw data is in [4adata.csv](/files/experiments/4a/4adata.csv). here's a pict
 After a little more script cleanup and some error checking, this experiment was mostly just more of the same (data collection) from Part A using the same simple API. The only notable difference being that I left the script running during an actual workout piece. Surprisingly, I was able to also connect my phone to the erg via bluetooth during this piece (while being connected via USB) so I also have the data saved from Concept2's official app.
 
 **Data/Results:**
-- [The data as captured from the python scripts for the 10k piece](/files/experiments/4b/10k.csv)
-- The concept2 data from the piece ([CSV](/files/experiments/4b/concept2-result-49307144.csv), [FIT](/files/experiments/4b/concept2-logbook-workout-49307144.fit), [TCX](/files/experiments/4b/concept2-logbook-workout-49307144.tcx))
-- [a Screenshot of the ergData app after the last stroke of the piece showing peak and average force, stroke count, and drag factor](/files/experiments/4b/IMG_6499.PNG)
+- [The data as captured from the python scripts for the 10k piece](../files/experiments/4b/10k.csv)
+- The concept2 data from the piece ([CSV](../files/experiments/4b/concept2-result-49307144.csv), [FIT](../files/experiments/4b/concept2-logbook-workout-49307144.fit), [TCX](../files/experiments/4b/concept2-logbook-workout-49307144.tcx))
+- [a Screenshot of the ergData app after the last stroke of the piece showing peak and average force, stroke count, and drag factor](../files/experiments/4b/IMG_6499.PNG)
 
 **Observations:**
 - this is probably documented somewhere that I havent bothered to read, but from doing the 10k with the liveplot up, it seems to me like the pace units comong from the erg (i.e. in the CSV files) are in seconds per 1000m
