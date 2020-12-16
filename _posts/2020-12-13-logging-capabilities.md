@@ -44,8 +44,21 @@ After a little more script cleanup and some error checking, this experiment was 
 - The concept2 data from the piece ([CSV](../files/experiments/4b/concept2-result-49307144.csv), [FIT](../files/experiments/4b/concept2-logbook-workout-49307144.fit), [TCX](../files/experiments/4b/concept2-logbook-workout-49307144.tcx))
 - [a Screenshot of the ergData app after the last stroke of the piece showing peak and average force, stroke count, and drag factor](../files/experiments/4b/IMG_6499.PNG)
 
-**Observations:**
+**Observations and Analysis:**
 - this is probably documented somewhere that I havent bothered to read, but from doing the 10k with the liveplot up, it seems to me like the pace units comong from the erg (i.e. in the CSV files) are in seconds per 1000m
+
+Ben has also created some interesting plots of the data from this 10K using MATLAB
+
+One is an overlay of all the force curves from all the strokes taken during the piece:
+
+![all force curves overlayed](../files/experiments/4b/allforcecurves.png)
+
+The other is a plot of the force curve of an average stroke with 1 standard deviation marked out above and below it:
+
+![avg force curve with standard deviation](../files/experiments/4b/forcecurvestandarddeviation.png)
+
+As you *might* be able to tell from that one random blue force line in the first plot, i wasnt exactly shooting for consistency for this 10k because, if im being honest, my attention span is nowhere near that long. If I had to guess, I'd say thats probably a stroke I took with one hand while taking a sip of water before getting back into it.
+
 
 **Future Improvements:**
 - can the units of pace be changed by changing the units on the erg monitor? (doubt it, i presume theyre all just calculated from the per-500 pace)
