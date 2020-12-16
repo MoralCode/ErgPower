@@ -6,7 +6,7 @@ layout: default
 
 <h2>Experiments</h2>
 <!-- Chronological order of experiments run/results of various tests -->
-{% assign experiments = site.posts | where:"type","experiment" | reverse %}
+{% assign experiments = site.posts | where:"category","experiment" | reverse %}
 <ol>
 	{% for post in experiments %}
 	<li>
@@ -17,7 +17,7 @@ layout: default
 
 <h2>Meetings</h2>
 <!-- reverse Chronological order listing of meeting notes -->
-{% assign meetings = site.posts | where:"type","meeting" %}
+{% assign meetings = site.posts | where:"category","meeting" %}
 <ul>
 	{% for post in meetings %}
 	<li>

@@ -1,5 +1,5 @@
 ---
-type: experiment
+category: experiment
 ---
 # Experiment 4
 **Hypothesis:** Is the data that comes out of the erg usable for the purposes of this project?

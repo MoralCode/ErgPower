@@ -1,5 +1,5 @@
 ---
-type: meeting
+category: meeting
 ---
 # Dec 10 2020 Meeting Summary
 

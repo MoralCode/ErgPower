@@ -1,6 +1,6 @@
 ---
 layout: default
-type: experiment
+category: experiment
 ---
 
 # Experiment 3
