@@ -54,7 +54,12 @@ These discoveries mean the initial formula was not quite correct, irrespective o
 These calculated RPM's had a Max, Avg, Min of about 1145.43, 1079.61, and 865.43. While the WPI paper's numbers of around 780-800 RPM seem close enough to confirm that this formula is at least in the ballpark, given the photos in the paper, it seems like Concept2 has made some revisions to the flywheel since the what looks like the model A-ish erg that WPI used in their paper.
 
 **Graphs:**
-TBD
+
+![Two Graphs, one showing peak stroke force over the course of the 6k, and the other showing stroke umpulse ofer the 6k](../files/experiments/5/twographs.png)
+
+*Note from Ben:* Impulse was calculated from trapeziodally integrating each stroke
+
+![A plot of the average force curve over the course of the 6k](../files/experiments/5/avgforcecurve.png)
 
 
 
