@@ -1,4 +1,6 @@
 ---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
 ---
 
 //
@@ -6,7 +8,7 @@
 //
 
 @import "reset";
-@import "variables";
+@import "themevariables";
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -1137,8 +1139,26 @@ Modules - reusable parts of our design
 }
 
 
+
+.fas, .fab {
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  margin: 5px;
+
+}
+
+.fas:hover, .fab:hover {
+  transform: scale(1.1);
+  
+}
+
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";
 @import "darcula";
-@import "svg-icons";
+
+@import "fontawesome/fontawesome.scss";
+@import "fontawesome/solid.scss";
+@import "fontawesome/brands.scss";
