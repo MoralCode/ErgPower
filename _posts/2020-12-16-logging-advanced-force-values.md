@@ -61,6 +61,8 @@ These calculated RPM's had a Max, Avg, Min of about 1145.43, 1079.61, and 865.43
 
 ![A plot of the average force curve over the course of the 6k](../files/experiments/5/avgforcecurve.png)
 
+Here's the [siplified csv file](https://github.com/MoralCode/ErgPowerAnalysis/tree/a9908616f96c8e8dc2ce8ef814b88ca9487c91b9/inputs) (just the force plot values from the 6k data) used as input for the [script](https://github.com/MoralCode/ErgPowerAnalysis/tree/a9908616f96c8e8dc2ce8ef814b88ca9487c91b9) that generated these graphs.
+
 
 
 **Future Improvements:**
