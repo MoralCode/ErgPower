@@ -1,0 +1,119 @@
+(PylogPlot) ace@IronMan:~/Projects/Current/ErgPower/Code/PylogPlot$ python3 misc/test.py 
+Traceback (most recent call last):
+  File "misc/test.py", line 2, in <module>
+    from ..datasources.concept2 import Concept2
+ImportError: attempted relative import with no known parent package
+(PylogPlot) ace@IronMan:~/Projects/Current/ErgPower/Code/PylogPlot$ python3 test.py      
+/home/ace/.local/share/virtualenvs/PylogPlot-Y4XmFPYJ/lib/python3.8/site-packages/pyrow/pyrow.py:172: UserWarning: DEBUG: usb error whilst setting configuration, [Errno 16] Resource busy
+  warn("DEBUG: usb error whilst setting configuration, {}".format(e))
+Connected to Erg
+Updated Value after 1608165445770 milliseconds: {'distance': 0, 'drivetime': 0, 'recoverytime': 0, 'strokelength': 0, 'strokecount': 0, 'peakforce': 0, 'impulseforce': 0, 'avgforce': 0, 'work': 65535}
+Updated Value after 7804 milliseconds: {'distance': 91, 'drivetime': 0, 'recoverytime': 0, 'strokelength': 0, 'strokecount': 1, 'peakforce': 0, 'impulseforce': 826, 'avgforce': 0, 'work': 65535}
+Updated Value after 156 milliseconds: {'distance': 91, 'drivetime': 60, 'recoverytime': 0, 'strokelength': 41, 'strokecount': 1, 'peakforce': 2792, 'impulseforce': 826, 'avgforce': 1365, 'work': 65535}
+Updated Value after 1508 milliseconds: {'distance': 91, 'drivetime': 60, 'recoverytime': 138, 'strokelength': 41, 'strokecount': 1, 'peakforce': 2792, 'impulseforce': 826, 'avgforce': 1365, 'work': 65535}
+Updated Value after 1038 milliseconds: {'distance': 424, 'drivetime': 60, 'recoverytime': 138, 'strokelength': 41, 'strokecount': 2, 'peakforce': 2792, 'impulseforce': 2922, 'avgforce': 1365, 'work': 29}
+Updated Value after 156 milliseconds: {'distance': 424, 'drivetime': 120, 'recoverytime': 138, 'strokelength': 82, 'strokecount': 2, 'peakforce': 4360, 'impulseforce': 2922, 'avgforce': 2423, 'work': 29}
+Updated Value after 1508 milliseconds: {'distance': 424, 'drivetime': 120, 'recoverytime': 141, 'strokelength': 82, 'strokecount': 2, 'peakforce': 4360, 'impulseforce': 2922, 'avgforce': 2423, 'work': 29}
+Updated Value after 830 milliseconds: {'distance': 428, 'drivetime': 120, 'recoverytime': 141, 'strokelength': 82, 'strokecount': 3, 'peakforce': 4360, 'impulseforce': 2217, 'avgforce': 2423, 'work': 35}
+Updated Value after 108 milliseconds: {'distance': 428, 'drivetime': 95, 'recoverytime': 141, 'strokelength': 77, 'strokecount': 3, 'peakforce': 3732, 'impulseforce': 2217, 'avgforce': 2333, 'work': 35}
+Updated Value after 1664 milliseconds: {'distance': 428, 'drivetime': 95, 'recoverytime': 153, 'strokelength': 77, 'strokecount': 3, 'peakforce': 3732, 'impulseforce': 2217, 'avgforce': 2333, 'work': 35}
+Updated Value after 782 milliseconds: {'distance': 495, 'drivetime': 95, 'recoverytime': 153, 'strokelength': 77, 'strokecount': 4, 'peakforce': 3732, 'impulseforce': 2016, 'avgforce': 2333, 'work': 51}
+Updated Value after 148 milliseconds: {'distance': 495, 'drivetime': 88, 'recoverytime': 153, 'strokelength': 77, 'strokecount': 4, 'peakforce': 3351, 'impulseforce': 2016, 'avgforce': 2282, 'work': 51}
+Updated Value after 1664 milliseconds: {'distance': 495, 'drivetime': 88, 'recoverytime': 155, 'strokelength': 77, 'strokecount': 4, 'peakforce': 3351, 'impulseforce': 2016, 'avgforce': 2282, 'work': 51}
+Updated Value after 734 milliseconds: {'distance': 513, 'drivetime': 88, 'recoverytime': 155, 'strokelength': 77, 'strokecount': 5, 'peakforce': 3351, 'impulseforce': 1659, 'avgforce': 2282, 'work': 59}
+Updated Value after 102 milliseconds: {'distance': 513, 'drivetime': 82, 'recoverytime': 155, 'strokelength': 74, 'strokecount': 5, 'peakforce': 2727, 'impulseforce': 1659, 'avgforce': 2007, 'work': 59}
+Updated Value after 1664 milliseconds: {'distance': 513, 'drivetime': 82, 'recoverytime': 154, 'strokelength': 74, 'strokecount': 5, 'peakforce': 2727, 'impulseforce': 1659, 'avgforce': 2007, 'work': 59}
+Updated Value after 726 milliseconds: {'distance': 512, 'drivetime': 82, 'recoverytime': 154, 'strokelength': 74, 'strokecount': 6, 'peakforce': 2727, 'impulseforce': 1554, 'avgforce': 2007, 'work': 60}
+Updated Value after 102 milliseconds: {'distance': 512, 'drivetime': 82, 'recoverytime': 154, 'strokelength': 74, 'strokecount': 6, 'peakforce': 2748, 'impulseforce': 1554, 'avgforce': 1891, 'work': 60}
+Updated Value after 1618 milliseconds: {'distance': 512, 'drivetime': 82, 'recoverytime': 150, 'strokelength': 74, 'strokecount': 6, 'peakforce': 2748, 'impulseforce': 1554, 'avgforce': 1891, 'work': 60}
+Updated Value after 726 milliseconds: {'distance': 504, 'drivetime': 82, 'recoverytime': 150, 'strokelength': 74, 'strokecount': 7, 'peakforce': 2748, 'impulseforce': 1826, 'avgforce': 1891, 'work': 59}
+Updated Value after 102 milliseconds: {'distance': 504, 'drivetime': 80, 'recoverytime': 150, 'strokelength': 74, 'strokecount': 7, 'peakforce': 3460, 'impulseforce': 1826, 'avgforce': 2267, 'work': 59}
+Updated Value after 1772 milliseconds: {'distance': 504, 'drivetime': 80, 'recoverytime': 164, 'strokelength': 74, 'strokecount': 7, 'peakforce': 3460, 'impulseforce': 1826, 'avgforce': 2267, 'work': 59}
+Updated Value after 672 milliseconds: {'distance': 524, 'drivetime': 80, 'recoverytime': 164, 'strokelength': 74, 'strokecount': 8, 'peakforce': 3460, 'impulseforce': 1151, 'avgforce': 2267, 'work': 62}
+Updated Value after 102 milliseconds: {'distance': 524, 'drivetime': 76, 'recoverytime': 164, 'strokelength': 68, 'strokecount': 8, 'peakforce': 2174, 'impulseforce': 1151, 'avgforce': 1511, 'work': 62}
+Updated Value after 36922 milliseconds: {'distance': 524, 'drivetime': 76, 'recoverytime': 164, 'strokelength': 68, 'strokecount': 8, 'peakforce': 0, 'impulseforce': 0, 'avgforce': 1511, 'work': 62}
+Updated Value after 570 milliseconds: {'distance': 78, 'drivetime': 76, 'recoverytime': 164, 'strokelength': 68, 'strokecount': 9, 'peakforce': 0, 'impulseforce': 1136, 'avgforce': 1511, 'work': 3}
+Updated Value after 156 milliseconds: {'distance': 78, 'drivetime': 58, 'recoverytime': 164, 'strokelength': 41, 'strokecount': 9, 'peakforce': 3367, 'impulseforce': 1136, 'avgforce': 1933, 'work': 3}
+Updated Value after 4946 milliseconds: {'distance': 78, 'drivetime': 58, 'recoverytime': 488, 'strokelength': 41, 'strokecount': 9, 'peakforce': 3367, 'impulseforce': 1136, 'avgforce': 1933, 'work': 3}
+Updated Value after 828 milliseconds: {'distance': 752, 'drivetime': 58, 'recoverytime': 488, 'strokelength': 41, 'strokecount': 10, 'peakforce': 3367, 'impulseforce': 2429, 'avgforce': 1933, 'work': 33}
+Updated Value after 110 milliseconds: {'distance': 752, 'drivetime': 100, 'recoverytime': 488, 'strokelength': 59, 'strokecount': 10, 'peakforce': 4488, 'impulseforce': 2429, 'avgforce': 2414, 'work': 33}
+Updated Value after 12686 milliseconds: {'distance': 752, 'drivetime': 100, 'recoverytime': 488, 'strokelength': 59, 'strokecount': 10, 'peakforce': 0, 'impulseforce': 0, 'avgforce': 2414, 'work': 33}
+Updated Value after 884 milliseconds: {'distance': 118, 'drivetime': 100, 'recoverytime': 488, 'strokelength': 59, 'strokecount': 11, 'peakforce': 0, 'impulseforce': 2318, 'avgforce': 2414, 'work': 5}
+Updated Value after 156 milliseconds: {'distance': 118, 'drivetime': 90, 'recoverytime': 488, 'strokelength': 59, 'strokecount': 11, 'peakforce': 3663, 'impulseforce': 2318, 'avgforce': 2555, 'work': 5}
+Updated Value after 1398 milliseconds: {'distance': 118, 'drivetime': 90, 'recoverytime': 134, 'strokelength': 59, 'strokecount': 11, 'peakforce': 3663, 'impulseforce': 2318, 'avgforce': 2555, 'work': 5}
+Updated Value after 938 milliseconds: {'distance': 382, 'drivetime': 90, 'recoverytime': 134, 'strokelength': 59, 'strokecount': 12, 'peakforce': 3663, 'impulseforce': 2200, 'avgforce': 2555, 'work': 24}
+Updated Value after 156 milliseconds: {'distance': 382, 'drivetime': 109, 'recoverytime': 134, 'strokelength': 77, 'strokecount': 12, 'peakforce': 3364, 'impulseforce': 2200, 'avgforce': 2012, 'work': 24}
+Updated Value after 1406 milliseconds: {'distance': 382, 'drivetime': 109, 'recoverytime': 130, 'strokelength': 77, 'strokecount': 12, 'peakforce': 3364, 'impulseforce': 2200, 'avgforce': 2012, 'work': 24}
+Updated Value after 882 milliseconds: {'distance': 419, 'drivetime': 109, 'recoverytime': 130, 'strokelength': 77, 'strokecount': 13, 'peakforce': 3364, 'impulseforce': 2153, 'avgforce': 2012, 'work': 35}
+Updated Value after 158 milliseconds: {'distance': 419, 'drivetime': 99, 'recoverytime': 130, 'strokelength': 80, 'strokecount': 13, 'peakforce': 3499, 'impulseforce': 2153, 'avgforce': 2164, 'work': 35}
+Updated Value after 1508 milliseconds: {'distance': 419, 'drivetime': 99, 'recoverytime': 143, 'strokelength': 80, 'strokecount': 13, 'peakforce': 3499, 'impulseforce': 2153, 'avgforce': 2164, 'work': 35}
+Updated Value after 780 milliseconds: {'distance': 465, 'drivetime': 99, 'recoverytime': 143, 'strokelength': 80, 'strokecount': 14, 'peakforce': 3499, 'impulseforce': 1702, 'avgforce': 2164, 'work': 47}
+Updated Value after 102 milliseconds: {'distance': 465, 'drivetime': 86, 'recoverytime': 143, 'strokelength': 74, 'strokecount': 14, 'peakforce': 3065, 'impulseforce': 1702, 'avgforce': 1974, 'work': 47}
+Updated Value after 1664 milliseconds: {'distance': 465, 'drivetime': 86, 'recoverytime': 152, 'strokelength': 74, 'strokecount': 14, 'peakforce': 3065, 'impulseforce': 1702, 'avgforce': 1974, 'work': 47}
+Updated Value after 726 milliseconds: {'distance': 495, 'drivetime': 86, 'recoverytime': 152, 'strokelength': 74, 'strokecount': 15, 'peakforce': 3065, 'impulseforce': 1659, 'avgforce': 1974, 'work': 53}
+Updated Value after 156 milliseconds: {'distance': 495, 'drivetime': 84, 'recoverytime': 152, 'strokelength': 74, 'strokecount': 15, 'peakforce': 2833, 'impulseforce': 1659, 'avgforce': 1968, 'work': 53}
+Updated Value after 6500 milliseconds: {'distance': 495, 'drivetime': 84, 'recoverytime': 152, 'strokelength': 74, 'strokecount': 15, 'peakforce': 0, 'impulseforce': 0, 'avgforce': 1968, 'work': 53}
+Updated Value after 1040 milliseconds: {'distance': 170, 'drivetime': 84, 'recoverytime': 152, 'strokelength': 74, 'strokecount': 16, 'peakforce': 0, 'impulseforce': 1758, 'avgforce': 1968, 'work': 13}
+Updated Value after 156 milliseconds: {'distance': 170, 'drivetime': 101, 'recoverytime': 152, 'strokelength': 82, 'strokecount': 16, 'peakforce': 2422, 'impulseforce': 1758, 'avgforce': 1729, 'work': 13}
+Updated Value after 9626 milliseconds: {'distance': 170, 'drivetime': 101, 'recoverytime': 152, 'strokelength': 82, 'strokecount': 16, 'peakforce': 0, 'impulseforce': 0, 'avgforce': 1729, 'work': 13}
+Updated Value after 882 milliseconds: {'distance': 121, 'drivetime': 101, 'recoverytime': 152, 'strokelength': 82, 'strokecount': 17, 'peakforce': 0, 'impulseforce': 1759, 'avgforce': 1729, 'work': 6}
+Updated Value after 156 milliseconds: {'distance': 121, 'drivetime': 86, 'recoverytime': 152, 'strokelength': 59, 'strokecount': 17, 'peakforce': 2899, 'impulseforce': 1759, 'avgforce': 2025, 'work': 6}
+Updated Value after 2024 milliseconds: {'distance': 121, 'drivetime': 86, 'recoverytime': 195, 'strokelength': 59, 'strokecount': 17, 'peakforce': 2899, 'impulseforce': 1759, 'avgforce': 2025, 'work': 6}
+Updated Value after 780 milliseconds: {'distance': 425, 'drivetime': 86, 'recoverytime': 195, 'strokelength': 59, 'strokecount': 18, 'peakforce': 2899, 'impulseforce': 1450, 'avgforce': 2025, 'work': 24}
+Updated Value after 110 milliseconds: {'distance': 425, 'drivetime': 90, 'recoverytime': 195, 'strokelength': 56, 'strokecount': 18, 'peakforce': 3867, 'impulseforce': 1450, 'avgforce': 1606, 'work': 24}
+Updated Value after 4782 milliseconds: {'distance': 425, 'drivetime': 90, 'recoverytime': 465, 'strokelength': 56, 'strokecount': 18, 'peakforce': 3867, 'impulseforce': 1450, 'avgforce': 1606, 'work': 24}
+Updated Value after 780 milliseconds: {'distance': 811, 'drivetime': 90, 'recoverytime': 465, 'strokelength': 56, 'strokecount': 19, 'peakforce': 3867, 'impulseforce': 1899, 'avgforce': 1606, 'work': 46}
+Updated Value after 158 milliseconds: {'distance': 811, 'drivetime': 95, 'recoverytime': 465, 'strokelength': 59, 'strokecount': 19, 'peakforce': 2884, 'impulseforce': 1899, 'avgforce': 1989, 'work': 46}
+Updated Value after 2912 milliseconds: {'distance': 811, 'drivetime': 95, 'recoverytime': 281, 'strokelength': 59, 'strokecount': 19, 'peakforce': 2884, 'impulseforce': 1899, 'avgforce': 1989, 'work': 46}
+Updated Value after 728 milliseconds: {'distance': 566, 'drivetime': 95, 'recoverytime': 281, 'strokelength': 59, 'strokecount': 20, 'peakforce': 2884, 'impulseforce': 726, 'avgforce': 1989, 'work': 35}
+Updated Value after 156 milliseconds: {'distance': 566, 'drivetime': 86, 'recoverytime': 281, 'strokelength': 53, 'strokecount': 20, 'peakforce': 1318, 'impulseforce': 726, 'avgforce': 840, 'work': 35}
+Updated Value after 8476 milliseconds: {'distance': 566, 'drivetime': 86, 'recoverytime': 281, 'strokelength': 53, 'strokecount': 20, 'peakforce': 0, 'impulseforce': 0, 'avgforce': 840, 'work': 35}
+Updated Value after 368 milliseconds: {'distance': 49, 'drivetime': 86, 'recoverytime': 281, 'strokelength': 53, 'strokecount': 21, 'peakforce': 0, 'impulseforce': 450, 'avgforce': 840, 'work': 1}
+Updated Value after 202 milliseconds: {'distance': 49, 'drivetime': 41, 'recoverytime': 281, 'strokelength': 29, 'strokecount': 21, 'peakforce': 2425, 'impulseforce': 450, 'avgforce': 1084, 'work': 1}
+Updated Value after 726 milliseconds: {'distance': 49, 'drivetime': 41, 'recoverytime': 60, 'strokelength': 29, 'strokecount': 21, 'peakforce': 2425, 'impulseforce': 450, 'avgforce': 1084, 'work': 1}
+Updated Value after 470 milliseconds: {'distance': 171, 'drivetime': 41, 'recoverytime': 60, 'strokelength': 29, 'strokecount': 22, 'peakforce': 2425, 'impulseforce': 756, 'avgforce': 1084, 'work': 7}
+Updated Value after 156 milliseconds: {'distance': 171, 'drivetime': 67, 'recoverytime': 60, 'strokelength': 35, 'strokecount': 22, 'peakforce': 2181, 'impulseforce': 756, 'avgforce': 1114, 'work': 7}
+Updated Value after 1038 milliseconds: {'distance': 171, 'drivetime': 67, 'recoverytime': 89, 'strokelength': 35, 'strokecount': 22, 'peakforce': 2181, 'impulseforce': 756, 'avgforce': 1114, 'work': 7}
+Updated Value after 424 milliseconds: {'distance': 197, 'drivetime': 67, 'recoverytime': 89, 'strokelength': 35, 'strokecount': 23, 'peakforce': 2181, 'impulseforce': 530, 'avgforce': 1114, 'work': 8}
+Updated Value after 156 milliseconds: {'distance': 197, 'drivetime': 59, 'recoverytime': 89, 'strokelength': 32, 'strokecount': 23, 'peakforce': 1779, 'impulseforce': 530, 'avgforce': 888, 'work': 8}
+Updated Value after 2648 milliseconds: {'distance': 197, 'drivetime': 59, 'recoverytime': 253, 'strokelength': 32, 'strokecount': 23, 'peakforce': 1779, 'impulseforce': 530, 'avgforce': 888, 'work': 8}
+Updated Value after 522 milliseconds: {'distance': 400, 'drivetime': 59, 'recoverytime': 253, 'strokelength': 32, 'strokecount': 24, 'peakforce': 1779, 'impulseforce': 741, 'avgforce': 888, 'work': 16}
+Updated Value after 158 milliseconds: {'distance': 400, 'drivetime': 66, 'recoverytime': 253, 'strokelength': 35, 'strokecount': 24, 'peakforce': 2565, 'impulseforce': 741, 'avgforce': 1108, 'work': 16}
+^CTraceback (most recent call last):
+  File "test.py", line 24, in <module>
+    test_data_rate(data_source.get_stroke_stats)
+  File "test.py", line 14, in test_data_rate
+    val = function()
+  File "/home/ace/Projects/Current/ErgPower/Code/PylogPlot/datasources/concept2.py", line 110, in get_stroke_stats
+    result = self.get_raw_csafe(command)
+  File "/home/ace/Projects/Current/ErgPower/Code/PylogPlot/datasources/concept2.py", line 130, in get_raw_csafe
+    result = self.erg.send(command)
+  File "/home/ace/.local/share/virtualenvs/PylogPlot-Y4XmFPYJ/lib/python3.8/site-packages/pyrow/pyrow.py", line 423, in send
+    time.sleep(MIN_FRAME_GAP - deltaraw)
+KeyboardInterrupt
+
+(PylogPlot) ace@IronMan:~/Projects/Current/ErgPower/Code/PylogPlot$ pipenv instal
+Usage: pipenv [OPTIONS] COMMAND [ARGS]...
+Try "pipenv --help" for help.
+
+Error: No such command "instal".
+
+Did you mean one of these?
+    install
+    uninstall
+(PylogPlot) ace@IronMan:~/Projects/Current/ErgPower/Code/PylogPlot$ pipenv install
+Installing dependencies from Pipfile.lock (dcdba3)…
+  🐍   ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 11/11 — 00:00:05
+(PylogPlot) ace@IronMan:~/Projects/Current/ErgPower/Code/PylogPlot$ python3 test.py 
+/home/ace/.local/share/virtualenvs/PylogPlot-Y4XmFPYJ/lib/python3.8/site-packages/pyrow/pyrow.py:160: UserWarning: DEBUG: usb kernel driver not on linux
+  warn("DEBUG: usb kernel driver not on {}".format(sys.platform))
+/home/ace/.local/share/virtualenvs/PylogPlot-Y4XmFPYJ/lib/python3.8/site-packages/pyrow/pyrow.py:172: UserWarning: DEBUG: usb error whilst setting configuration, [Errno 16] Resource busy
+  warn("DEBUG: usb error whilst setting configuration, {}".format(e))
+Connected to Erg
+Updated Value after 1608165819658 milliseconds: {'distance': 0, 'drivetime': 0, 'recoverytime': 0, 'strokelength': 0, 'strokecount': 0, 'peakforce': 0, 'impulseforce': 0, 'avgforce': 0, 'work': 0}
+Updated Value after 54 milliseconds: {'distance': 0, 'drivetime': 0, 'recoverytime': 0, 'strokelength': 0, 'strokecount': 0, 'peakforce': 0, 'impulseforce': 0, 'avgforce': 0, 'work': 65535}
+Updated Value after 1718 milliseconds: {'distance': 150, 'drivetime': 0, 'recoverytime': 0, 'strokelength': 0, 'strokecount': 1, 'peakforce': 0, 'impulseforce': 0, 'avgforce': 0, 'work': 65535}
+Updated Value after 150 milliseconds: {'distance': 150, 'drivetime': 0, 'recoverytime': 0, 'strokelength': 62, 'strokecount': 1, 'peakforce': 0, 'impulseforce': 0, 'avgforce': 0, 'work': 65535}
+Updated Value after 1202 milliseconds: {'distance': 150, 'drivetime': 0, 'recoverytime': 106, 'strokelength': 62, 'strokecount': 1, 'peakforce': 0, 'impulseforce': 0, 'avgforce': 0, 'work': 65535}
+Updated Value after 672 milliseconds: {'distance': 336, 'drivetime': 0, 'recoverytime': 106, 'strokelength': 62, 'strokecount': 2, 'peakforce': 0, 'impulseforce': 1296, 'avgforce': 0, 'work': 27}
+Updated Value after 102 milliseconds: {'distance': 336, 'drivetime': 81, 'recoverytime': 106, 'strokelength': 53, 'strokecount': 2, 'peakforce': 2634, 'impulseforce': 1296, 'avgforce': 1591, 'work': 27}
