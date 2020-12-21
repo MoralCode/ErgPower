@@ -1,5 +1,6 @@
 ---
 category: experiment
+author: [Adrian Edwards](https://www.adriancedwards.com)
 ---
 # Experiment 2
 wired two LED’s (through-hole 5mm pretty standard random green LED’s I had), each in a different direction between the tip and the ground of the 2.5mm audio jack

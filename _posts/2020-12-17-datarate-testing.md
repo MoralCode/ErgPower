@@ -1,5 +1,6 @@
 ---
 category: experiment
+author: [Adrian Edwards](https://www.adriancedwards.com)
 ---
 # Experiment 6
 **Hypothesis:** How often can data (specifically distance and time as theyre needed to calculate RPM) be sampled from the erg?

@@ -1,5 +1,6 @@
 ---
 category: meeting
+author: [Adrian Edwards](https://www.adriancedwards.com)
 ---
 # Dec 10 2020 Meeting Summary
 
