@@ -6,10 +6,9 @@ layout: default
 {% assign author = site.authors[page.author] %}
 
 {% if author.website %}
-<span>Author: <a href="{{author.website}}">{{author.display_name}}</a></span>
+<p>Author: <a href="{{author.website}}">{{author.display_name}}</a></p>
 {% else %}
-<span>Author: {{author.display_name}}</span>
-
+<p>Author: {{author.display_name}}</p>
 {% endif %}
 
 <p>Posted on: <time datetime="{{ page.date | date: site.machine_date_format }}">{{ page.date | date: site.user_date_format }}</time></p>
