@@ -12,4 +12,6 @@ layout: default
 
 {% endif %}
 
+<p>Posted on: <time datetime="{{ page.date | date: site.machine_date_format }}">{{ page.date | date: site.user_date_format }}</time></p>
+
 {{content}}

@@ -92,7 +92,9 @@ authors:
     website: https://www.adriancedwards.com
   ben:
     display_name: Ben Clements
-    
+
+machine_date_format: '%Y-%m-%dT%H:%MZ'
+user_date_format: '%B %d, %Y'
 
 defaults:
   -
