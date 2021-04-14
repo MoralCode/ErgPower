@@ -86,9 +86,17 @@ exclude:
   - CNAME
   - vendor
 
+authors:
+  moralcode:
+    display_name: Adrian Edwards
+    website: https://www.adriancedwards.com
+  ben:
+    display_name: Ben Clements
+    
+
 defaults:
   -
     scope:
       path: "_posts" # an empty string here means all files in the project
     values:
-      layout: "default"
+      layout: "post"

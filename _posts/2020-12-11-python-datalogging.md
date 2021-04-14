@@ -1,7 +1,7 @@
 ---
 layout: default
 category: experiment
-author: [Adrian Edwards](https://www.adriancedwards.com)
+author: moralcode
 ---
 
 # Experiment 3

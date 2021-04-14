@@ -1,6 +1,6 @@
 ---
 category: experiment
-author: [Adrian Edwards](https://www.adriancedwards.com)
+author: moralcode
 ---
 # Experiment 5
 **Hypothesis:** Is it possible to log the "more advanced" stroke data (Stroke Distance, drive time, recovery time, stroke length, stroke count, Stroke peak force, Stroke Impulse Force, Stroke Average Force, Work per stroke) from the Py3Row library?

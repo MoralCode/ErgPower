@@ -1,6 +1,6 @@
 ---
 category: experiment
-author: [Adrian Edwards](https://www.adriancedwards.com)
+author: "moralcode"
 ---
 # Experiment 4
 **Hypothesis:** Is the data that comes out of the erg usable for the purposes of this project?

@@ -1,6 +1,6 @@
 ---
 category: meeting
-author: [Adrian Edwards](https://www.adriancedwards.com)
+author: moralcode
 ---
 # Dec 10 2020 Meeting Summary
 

@@ -1,6 +1,6 @@
 ---
 category: experiment
-author: [Adrian Edwards](https://www.adriancedwards.com)
+author: moralcode
 ---
 # Experiment 7
 **Purpose of test:** To have data on a piece that includes most if not all the different pieces of data so far (particularly force curve, accurate distance and time for estimating RPM, and force/impulse data) 

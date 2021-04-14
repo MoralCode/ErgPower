@@ -1,6 +1,6 @@
 ---
 category: experiment
-author: [Adrian Edwards](https://www.adriancedwards.com)
+author: moralcode
 ---
 # Experiment 1
 **Hypothesis:** Since the erg is able to power itself while being used, is it possible to just use this as a source of power from the erg?
