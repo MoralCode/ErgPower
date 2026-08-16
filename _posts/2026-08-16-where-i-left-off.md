@@ -1,5 +1,6 @@
 ---
 category: update
+author: moralcode
 ---
 
 Hello to anyone still stumbling upon this site.
@@ -21,9 +22,10 @@ These challenges follow roughly this train of thought:
 7. This hub sensor is how the flywheel can power the Concept2 monitor when actively rowing. That may be worth considering from either a "how do we not break that functionality" or a "how can we use this to extract more usable energy" perspectives
 8. You might want a way to store the generated power short-term, such as a capacitor bank, 18650's, etc to help smooth out the spikes in generation that come from each stroke.
 9. You would need some kind of controller to take connections from this RPM signal, the generator, and your power storage solution and basically run the logic for how and when to extract energy from the generator to mimic a real flywheel
-10. You would need to develop an algorithm to do this, which will likely include developing some mechanism by which to measure/quantify/characterize a normal rowing stroke in terms of the resistance that the stock fins provide to the flywheel (ideally across a range of damper settings)
+10. You would need to develop an algorithm to do this, which will likely include developing some mechanism by which to measure/quantify/characterize a normal rowing stroke in terms of the resistance that the stock fins provide to the flywheel (ideally across a range of damper settings). Getting this right in a provable/reproducible/testable way is pretty critical because changing how the flywheel spins will almost certainly change how the Concept 2 Performance Monitor shows scores, potentially leading to people thinking they are rowing faster/slower than they actually are (when compared to a stock rowing machine)
 11. If you want to use the damper setting in your algorithm for a perfect drop-in user experience, you will very likely need to add some kind of sensor to the damper too (which depending on how you installed the motor, may have been removed or destroyed earlier)
 12. After all of this, it is unknown whether a useful enough amount of power will be extractable in the first place (my benchmark is, can it charge my phone, so probably around 5v, and 500-1000 mA of current)
+13. If, by some miracle, all of the above are resolved, theres also the additional challenge of: Can this be done in a way that can be packaged to be essentially drop-in replacement for the stock flywheel (i.e. fits within the volume of the stock flywheel cover - other than necessary wires, requires as little destructive mounting/new holes etc as possible, doesn't interfere with any features of the rowing machine that make its built-in display not work, etc) 
 
 While my personal progress on this project has been effectively 0 since early 2021, I would be interested to know if anyone makes progress on this. Information on how to contact me is listed on the homepage of this site.
 
