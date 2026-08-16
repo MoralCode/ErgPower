@@ -25,3 +25,14 @@ layout: default
 	</li>
 	{% endfor %}
 </ul>
+
+<h2>Other Updates</h2>
+<!-- reverse Chronological order listing of meeting notes -->
+{% assign updates = site.posts | where:"category","update" %}
+<ul>
+	{% for post in updates %}
+	<li>
+		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+	</li>
+	{% endfor %}
+</ul>
